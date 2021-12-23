@@ -1,0 +1,15 @@
+let hobbies = ["croche", "coding", "martial arts", "yoga", "cycling", "arts", "reading books"];
+let numbers = [3,5,7,12,13];
+//console.log(numbers);
+console.log("Index 2:", numbers[1]);
+console.log("Index 7:", hobbies[6]);
+hobbies.push("cooking");
+console.log("last hobby", hobbies[7]);
+console.log(hobbies.length);
+hobbies.pop(hobbies);
+hobbies.pop(hobbies);
+console.log(hobbies);
+console.log(hobbies.length);
+console.log(hobbies.empty);
+hobbies = [];
+console.log(hobbies);
